@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarcodeReader"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/scanBtn"
+        android:layout_width="161dp"
+        android:layout_height="71dp"
+        android:text="@string/scan"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <Button
+        android:id="@+id/viewElementsBtn"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:text="View Elements"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/viewElementsTextView"
+        android:layout_width="165dp"
+        android:layout_height="334dp"
+        android:scrollbars="vertical"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <Button
+        android:id="@+id/removeLastButton"
+        android:layout_width="165dp"
+        android:layout_height="58dp"
+        android:text="Remove the last element added"
+        android:visibility="visible "
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <Button
+        android:id="@+id/addAllElementsToDBBtn"
+        android:layout_width="161dp"
+        android:layout_height="71dp"
+        android:text="Add all scanned elements to the database"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <Button
+        android:id="@+id/updateAnElementInDBBtn"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Update an element in the DB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/deleteAnElementFromDBBtn"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Delete an element from the DB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/deleteAllElementsFromDBBtn"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:text="Delete all elements in the DB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+</android.support.constraint.ConstraintLayout>
